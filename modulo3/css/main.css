@@ -1,0 +1,105 @@
+body{
+  font-family: 'Asul', cursive;
+  color:black;
+  box-sizing: border-box;
+  background-image:url(../images/background-food.jpg);
+  background-attachment:fixed;
+}
+
+/***** Header (menu) *****/
+
+#mainNav{
+  background-color:#DBA118;
+  border:1px solid black;
+  border-radius:0;
+}
+
+#mainNav .navbar-brand{
+  color:black;
+}
+
+.headings{
+  font-family:'Concert One', sans-serif;
+}
+
+.navbar-brand:hover{
+  text-shadow:1px 0px white, 0px 1px white, -1px 0px white, 0px -1px white;
+}
+
+#top{
+  text-shadow:1px 0px white, 0px 1px white, -1px 0px white, 0px -1px white;
+}
+
+#mobileMenu{
+  text-align:center;
+}
+
+#mobileMenu a{
+  color:black;
+}
+
+#mobileMenu a:hover{
+  background-color:#DBA118;
+}
+
+/***** Main content *****/
+
+#mainContent{
+  margin:0px 20px 0px 20px;
+}
+
+#mainContent.container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+  margin-bottom:20px;
+}
+
+.sectionContent{
+  margin-top:20px;
+  background-color:#EDD395;
+  padding:20px;
+  text-align:justify;
+  opacity:0.8;
+  border:1px solid black;
+}
+
+.sectionContent a{
+  font-weight: bold;
+}
+
+/***** Media Queries *****/
+
+@media (min-width:992px){
+  .sectionContent{
+    min-height:1200px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  #section1 .sectionContent, #section2 .sectionContent{
+    min-height:1000px;
+  }
+}
+
+@media (max-width:767px){
+  #mobileMenu{
+    background-color:#EDD395;
+  }
+
+  #mobileMenuButton{
+    background-color:#EDD395;
+    border:1px solid black;
+  }
+
+  #mobileMenuButton .icon-bar{
+    background-color:black;
+  }
+
+  #mobileMenuButton:hover{
+    background-color:#EEEEEE;
+  }
+
+  #mobileMenuButton:hover .icon-bar{
+    background-color:#949494;
+  }
+}
