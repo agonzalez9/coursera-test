@@ -8,11 +8,12 @@ body{
 
 #mainNav{
   background-color:lightgray;
+  border-radius:0;
 }
 
 #mainNav .navbar-brand{
   color:black;
-}*/
+}
 
 .headings, .navbar-brand{
   font-family:'Concert One', sans-serif;
