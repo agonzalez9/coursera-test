@@ -8,6 +8,7 @@ body{
 
 #mainNav{
   background-color:lightgray;
+  border-radius:0;
 }
 
 #mainNav .navbar-brand{
